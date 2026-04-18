@@ -1,0 +1,52 @@
+--  Total Revenue
+SELECT SUM(amount) AS total_revenue 
+FROM orders;
+
+--  Total Customers
+SELECT COUNT(DISTINCT customer_id) AS total_customers 
+FROM orders;
+
+--  Average Order Value
+SELECT AVG(amount) AS avg_order_value 
+FROM orders;
+
+--  Orders per Customer
+SELECT
+    customer_id,
+    COUNT(order_id) AS total_orders
+FROM orders
+GROUP BY customer_id;
+
+--  Repeat Purchase Rate
+SELECT
+    COUNT(*) AS total_customers,
+    SUM(CASE WHEN total_orders > 1 THEN 1 ELSE 0 END) AS repeat_customers,
+    ROUND(
+        SUM(CASE WHEN total_orders > 1 THEN 1 ELSE 0 END) * 100.0 / COUNT(*),
+        2
+    ) AS repeat_rate
+FROM (
+    SELECT
+        customer_id,
+        COUNT(order_id) AS total_orders
+    FROM orders
+    GROUP BY customer_id
+);
+
+--  Monthly Revenue Trend
+SELECT
+    strftime('%Y-%m', order_date) AS month,
+    SUM(amount) AS revenue
+FROM orders
+GROUP BY month
+ORDER BY month;
+
+--  RFM Analysis
+SELECT
+    customer_id,
+    MAX(order_date) AS last_order_date,
+    COUNT(order_id) AS frequency,
+    SUM(amount) AS monetary,
+    julianday('2024-05-01') - julianday(MAX(order_date)) AS recency
+FROM orders
+GROUP BY customer_id;

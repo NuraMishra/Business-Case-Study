@@ -1,0 +1,9 @@
+Insights:
+- Total revenue is 4000 from 5 customers, indicating a small customer base
+- Average order value is around 571, showing moderate spending behavior
+- Repeat purchase rate is 40%, which indicates low customer retention
+- Majority of customers are one-time buyers
+- Revenue is fluctuating across months, showing unstable growth
+- February has the highest revenue, while April shows a sharp decline
+- A few customers contribute most of the total revenue (high-value customers)
+- Some customers are inactive (high recency), indicating risk of churn
