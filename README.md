@@ -50,7 +50,7 @@ Insight: Only 5 customers → the biggest challenge is low customer acquisition.
 
 ###  Repeat Purchase Behavior
 
- Output:  ![Repeat Behavior]
+ Output:  ![Repeat Behavior] https://github.com/NuraMishra/Business-Case-Study/blob/main/repeat_rate.png
  
  Insight: Most customers are one-time buyers → weak retention.
 
@@ -151,5 +151,5 @@ The business is currently limited by a small customer base and weak retention. S
 ##  Project Files
 
 * `analysis.sql` https://github.com/NuraMishra/Business-Case-Study/blob/main/Analysis.sql/analysis.sql.txt 
-* `README.md`
+* `README.md` https://github.com/NuraMishra/Business-Case-Study/blob/main/README/README.txt
 * 'insights.txt' https://github.com/NuraMishra/Business-Case-Study/blob/main/Insights.txt/insights.txt.txt
