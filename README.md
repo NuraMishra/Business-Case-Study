@@ -1,4 +1,4 @@
-#  Business Case Study – E-commerce Growth Strategy
+#  Business Case Study  E-commerce Growth Strategy
 
 ##  Problem Statement
 
@@ -29,42 +29,45 @@ How can revenue be increased sustainably?
 
 ###  Total Revenue
 
-Output: ![Revenue](images/b1.png)
+Output: ![Revenue] https://github.com/NuraMishra/Business-Case-Study/blob/main/revenue.png
 Insight: Total revenue is ₹4,000, indicating a very small business scale.
 
 ---
 
 ###  Total Customers
 
-Output: ![Customers](images/b2.png)
+Output: ![Customers] 
 Insight: Only 5 customers → the biggest challenge is low customer acquisition.
 
 ---
 
 ###  Average Order Value (AOV)
 
- Output:  ![AOV](images/b3.png)
+ Output:  ![AOV] https://github.com/NuraMishra/Business-Case-Study/blob/main/avg_order_value.png
  Insight: AOV is ₹571 → moderate spending with potential for upselling.
 
 ---
 
 ###  Repeat Purchase Behavior
 
- Output:  ![Repeat Behavior](images/b4.png)
+ Output:  ![Repeat Behavior]
+ 
  Insight: Most customers are one-time buyers → weak retention.
 
 ---
 
 ###  Repeat Purchase Rate
 
- Output: ![Repeat Rate](images/b5.png)
+ Output: ![Repeat Rate] https://github.com/NuraMishra/Business-Case-Study/blob/main/repeat_rate.png
+ 
  Insight: Only ~40% repeat customers → retention needs improvement.
 
 ---
 
 ###  Monthly Revenue Trend
 
- Output: ![Revenue Trend](images/b6.png)
+ Output: ![Revenue Trend] https://github.com/NuraMishra/Business-Case-Study/blob/main/monthly_trend.png
+ 
  Insight: Revenue is unstable:
 
 * February shows peak performance (~₹1700)
@@ -75,7 +78,8 @@ Insight: Only 5 customers → the biggest challenge is low customer acquisition.
 
 ###  RFM Analysis
 
- Output: ![RFM](images/b7.png)
+ Output: ![RFM]  https://github.com/NuraMishra/Business-Case-Study/blob/main/rfm_customer_segmentation.png
+ 
  Insight:
 
 * A few high-value customers drive most revenue
@@ -146,6 +150,6 @@ The business is currently limited by a small customer base and weak retention. S
 
 ##  Project Files
 
-* `analysis.sql` → SQL queries
-* `images/` → Output screenshots
-* `README.md` → Project documentation
+* `analysis.sql` https://github.com/NuraMishra/Business-Case-Study/blob/main/Analysis.sql/analysis.sql.txt 
+* `README.md`
+* 'insights.txt' https://github.com/NuraMishra/Business-Case-Study/blob/main/Insights.txt/insights.txt.txt
